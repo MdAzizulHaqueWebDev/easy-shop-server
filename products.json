@@ -1,427 +1,502 @@
 [
 	{
 		"category": "Food",
-		"products": [
-			{
-				"productName": "Apple Fuji 1kg",
-				"productImage": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1&m=400&webp=1",
-				"description": "Fresh and juicy Fuji apples.",
-				"price": 3.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-15T08:30:00Z"
-			},
-			{
-				"productName": "Banana Organic 1kg",
-				"productImage": "https://chaldn.com/_mpimage/banana-sobri-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76878&q=low&v=1&m=400&webp=1",
-				"description": "Organic bananas perfect for snacking.",
-				"price": 2.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-14T12:00:00Z"
-			},
-			{
-				"productName": "Whole Wheat Bread 500g",
-				"productImage": "https://sallysbakingaddiction.com/wp-content/uploads/2024/01/whole-wheat-sandwich-bread-2.jpg",
-				"description": "Healthy and delicious whole wheat bread.",
-				"price": 1.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-13T09:45:00Z"
-			},
-			{
-				"productName": "Peanut Butter 250g",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFqFh0JhvHWZo-PuxFTpWkXgzA2D7isQv-eQ&s",
-				"description": "Creamy peanut butter made from roasted peanuts.",
-				"price": 3.49,
-				"ratings": 4.8,
-				"creationDate": "2024-08-12T10:30:00Z"
-			},
-			{
-				"productName": "Almond Milk 1L",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBPZvF3-IBEYGnQ8ctBFUDO6jULcNKSw2Ew&s",
-				"description": "Plant-based almond milk, lactose-free.",
-				"price": 2.99,
-				"ratings": 4.4,
-				"creationDate": "2024-08-11T14:00:00Z"
-			},
-			{
-				"productName": "Greek Yogurt 500g",
-				"productImage": "https://lactel.com.my/wp-content/uploads/2019/09/greek-p_07.png",
-				"description": "Rich and creamy Greek yogurt, perfect for breakfast.",
-				"price": 4.49,
-				"ratings": 4.7,
-				"creationDate": "2024-08-10T11:30:00Z"
-			},
-			{
-				"productName": "Organic Brown Rice 1kg",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdtbebvhFvkzYDv8PvhTloUeY5QZefuJ7kg&s",
-				"description": "Nutritious and healthy organic brown rice.",
-				"price": 5.49,
-				"ratings": 4.5,
-				"creationDate": "2024-08-09T09:20:00Z"
-			},
-			{
-				"productName": "Olive Oil Extra Virgin 500ml",
-				"productImage": "https://m.media-amazon.com/images/I/61LDUu1YQoL._SL1000_.jpg",
-				"description": "Premium extra virgin olive oil for cooking.",
-				"price": 7.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-08T13:45:00Z"
-			},
-			{
-				"productName": "Honey Raw 250g",
-				"productImage": "https://example.com/images/raw_honehttps://cdn-prod.medicalnewstoday.com/content/images/articles/324/324966/raw-honey-vs-regular-honey-on-table.jpg",
-				"description": "Pure raw honey, perfect for sweetening naturally.",
-				"price": 6.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-07T10:50:00Z"
-			},
-			{
-				"productName": "Dark Chocolate 70% 100g",
-				"productImage": "https://m.media-amazon.com/images/I/61cxT9+0oOL._AC_UF1000,1000_QL80_.jpg",
-				"description": "Rich and intense 70% dark chocolate.",
-				"price": 3.99,
-				"ratings": 4.9,
-				"creationDate": "2024-08-06T15:30:00Z"
-			}
-		]
+		"productName": "Apple Fuji 1kg",
+		"productImage": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1&m=400&webp=1",
+		"description": "Fresh and juicy Fuji apples.",
+		"price": 3.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-15T08:30:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Banana Organic 1kg",
+		"productImage": "https://chaldn.com/_mpimage/banana-sobri-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76878&q=low&v=1&m=400&webp=1",
+		"description": "Organic bananas perfect for snacking.",
+		"price": 2.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-14T12:00:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Whole Wheat Bread 500g",
+		"productImage": "https://sallysbakingaddiction.com/wp-content/uploads/2024/01/whole-wheat-sandwich-bread-2.jpg",
+		"description": "Healthy and delicious whole wheat bread.",
+		"price": 1.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-13T09:45:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Peanut Butter 250g",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFqFh0JhvHWZo-PuxFTpWkXgzA2D7isQv-eQ&s",
+		"description": "Creamy peanut butter made from roasted peanuts.",
+		"price": 3.49,
+		"ratings": 4.8,
+		"creationDate": "2024-08-12T10:30:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Almond Milk 1L",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBPZvF3-IBEYGnQ8ctBFUDO6jULcNKSw2Ew&s",
+		"description": "Plant-based almond milk, lactose-free.",
+		"price": 2.99,
+		"ratings": 4.4,
+		"creationDate": "2024-08-11T14:00:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Greek Yogurt 500g",
+		"productImage": "https://lactel.com.my/wp-content/uploads/2019/09/greek-p_07.png",
+		"description": "Rich and creamy Greek yogurt, perfect for breakfast.",
+		"price": 4.49,
+		"ratings": 4.7,
+		"creationDate": "2024-08-10T11:30:00Z",
+		"brand":"Fuji"
+	},
+	{
+		"category": "Food",
+		"productName": "Organic Brown Rice 1kg",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdtbebvhFvkzYDv8PvhTloUeY5QZefuJ7kg&s",
+		"description": "Nutritious and healthy organic brown rice.",
+		"price": 5.49,
+		"ratings": 4.5,
+		"creationDate": "2024-08-09T09:20:00Z",
+		"brand":"Organic Brown"
+	},
+	{
+		"category": "Food",
+		"productName": "Olive Oil Extra Virgin 500ml",
+		"productImage": "https://m.media-amazon.com/images/I/61LDUu1YQoL._SL1000_.jpg",
+		"description": "Premium extra virgin olive oil for cooking.",
+		"price": 7.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-08T13:45:00Z",
+		"brand":"Organic Brown"
+	},
+	{
+		"category": "Food",
+		"productName": "Honey Raw 250g",
+		"productImage": "https://example.com/images/raw_honehttps://cdn-prod.medicalnewstoday.com/content/images/articles/324/324966/raw-honey-vs-regular-honey-on-table.jpg",
+		"description": "Pure raw honey, perfect for sweetening naturally.",
+		"price": 6.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-07T10:50:00Z",
+		"brand":"Organic Brown"
+	},
+	{
+		"category": "Food",
+		"productName": "Dark Chocolate 70% 100g",
+		"productImage": "https://m.media-amazon.com/images/I/61cxT9+0oOL._AC_UF1000,1000_QL80_.jpg",
+		"description": "Rich and intense 70% dark chocolate.",
+		"price": 3.99,
+		"ratings": 4.9,
+		"creationDate": "2024-08-06T15:30:00Z",
+		"brand":"Organic Brown"
 	},
 	{
 		"category": "Electronics",
-		"products": [
-			{
-				"productName": "Smartphone XYZ",
-				"productImage": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/03/15/bd2699709ff9b92ed09de2a756837446.jpg?quality=80&zoom=1&ssl=1",
-				"description": "High-performance smartphone with sleek design.",
-				"price": 799.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-15T12:30:00Z"
-			},
-			{
-				"productName": "Laptop Pro 15",
-				"productImage": "https://www.notebookcheck.com/uploads/tx_nbc2/XiaomiMiNotebookPro15-2021.jpg",
-				"description": "Powerful laptop for professionals.",
-				"price": 1299.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-14T09:45:00Z"
-			},
-			{
-				"productName": "Wireless Earbuds ABC",
-				"productImage": "https://m.media-amazon.com/images/I/716gAr0KA6L.jpg",
-				"description": "Comfortable wireless earbuds with noise cancellation.",
-				"price": 149.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-13T08:00:00Z"
-			},
-			{
-				"productName": "Smart TV 55 Inch",
-				"productImage": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFHeGFOUFhaaUwuX0FDX1NMMTAwMF8uanBn.jpg",
-				"description": "4K UHD Smart TV with built-in streaming apps.",
-				"price": 699.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-12T11:15:00Z"
-			},
-			{
-				"productName": "Bluetooth Speaker DEF",
-				"productImage": "https://m.media-amazon.com/images/I/71ipVm+ILjL._AC_UF1000,1000_QL80_.jpg",
-				"description": "Portable Bluetooth speaker with powerful sound.",
-				"price": 79.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-11T14:30:00Z"
-			},
-			{
-				"productName": "Gaming Console 2024",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OvBM80mmxwluEpbCdtf_SIhotwl33Ha-Sw&s",
-				"description": "Next-gen gaming console with stunning graphics.",
-				"price": 499.99,
-				"ratings": 4.9,
-				"creationDate": "2024-08-10T12:00:00Z"
-			},
-			{
-				"productName": "4TB External Hard Drive",
-				"productImage": "https://www.ucc.com.bd/image/cache/catalog/hhd/transcend/TS4TSJ25M3C/TS4TSJ25M3C_package-550x550.jpg.webp",
-				"description": "High-capacity external hard drive for data backup.",
-				"price": 119.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-09T10:15:00Z"
-			},
-			{
-				"productName": "Smartwatch Series 5",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTjfgWE26Vq9yaR1qo1g4e0mxT8TC8QoZZRQ&s",
-				"description": "Advanced smartwatch with health tracking features.",
-				"price": 299.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-08T13:45:00Z"
-			},
-			{
-				"productName": "Digital Camera 24MP",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcitUMcTkMapbNk1ZCizcHKew-EQzRvX9DSA&s",
-				"description": "Compact digital camera with high resolution.",
-				"price": 349.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-07T11:30:00Z"
-			},
-			{
-				"productName": "Tablet Pro 10.5 Inch",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMMcmyCUXbTQ0r1b1uEQGAGMxOKbP77PJsg&s",
-				"description": "Lightweight tablet with a powerful processor.",
-				"price": 599.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-06T09:45:00Z"
-			}
-		]
+		"productName": "Smartphone XYZ",
+		"productImage": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/03/15/bd2699709ff9b92ed09de2a756837446.jpg?quality=80&zoom=1&ssl=1",
+		"description": "High-performance smartphone with sleek design.",
+		"price": 799.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-15T12:30:00Z",
+		"brand":"XYZ"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Laptop Pro 15",
+		"productImage": "https://www.notebookcheck.com/uploads/tx_nbc2/XiaomiMiNotebookPro15-2021.jpg",
+		"description": "Powerful laptop for professionals.",
+		"price": 1299.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-14T09:45:00Z",
+		"brand":"XYZ"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Wireless Earbuds ABC",
+		"productImage": "https://m.media-amazon.com/images/I/716gAr0KA6L.jpg",
+		"description": "Comfortable wireless earbuds with noise cancellation.",
+		"price": 149.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-13T08:00:00Z",
+		"brand":"XYZ"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Smart TV 55 Inch",
+		"productImage": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFHeGFOUFhaaUwuX0FDX1NMMTAwMF8uanBn.jpg",
+		"description": "4K UHD Smart TV with built-in streaming apps.",
+		"price": 699.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-12T11:15:00Z",
+		"brand":"XYZ"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Bluetooth Speaker DEF",
+		"productImage": "https://m.media-amazon.com/images/I/71ipVm+ILjL._AC_UF1000,1000_QL80_.jpg",
+		"description": "Portable Bluetooth speaker with powerful sound.",
+		"price": 79.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-11T14:30:00Z",
+		"brand":"XYZ"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Gaming Console 2024",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OvBM80mmxwluEpbCdtf_SIhotwl33Ha-Sw&s",
+		"description": "Next-gen gaming console with stunning graphics.",
+		"price": 499.99,
+		"ratings": 4.9,
+		"creationDate": "2024-08-10T12:00:00Z",
+		"brand":"Gaming"
+	},
+	{
+		"category": "Electronics",
+		"productName": "4TB External Hard Drive",
+		"productImage": "https://www.ucc.com.bd/image/cache/catalog/hhd/transcend/TS4TSJ25M3C/TS4TSJ25M3C_package-550x550.jpg.webp",
+		"description": "High-capacity external hard drive for data backup.",
+		"price": 119.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-09T10:15:00Z",
+		"brand":"Gaming"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Smartwatch Series 5",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTjfgWE26Vq9yaR1qo1g4e0mxT8TC8QoZZRQ&s",
+		"description": "Advanced smartwatch with health tracking features.",
+		"price": 299.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-08T13:45:00Z",
+		"brand":"Gaming"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Digital Camera 24MP",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcitUMcTkMapbNk1ZCizcHKew-EQzRvX9DSA&s",
+		"description": "Compact digital camera with high resolution.",
+		"price": 349.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-07T11:30:00Z",
+		"brand":"Gaming"
+	},
+	{
+		"category": "Electronics",
+		"productName": "Tablet Pro 10.5 Inch",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMMcmyCUXbTQ0r1b1uEQGAGMxOKbP77PJsg&s",
+		"description": "Lightweight tablet with a powerful processor.",
+		"price": 599.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-06T09:45:00Z",
+		"brand":"Gaming"
+	},
+
+	{
+		"category": "Personal Care",
+		"productName": "Dettol Soap Original 75g",
+		"productImage": "https://bk.shajgoj.com/storage/2022/08/Dettol-Soap-Original-75gm-Bathing-Bar1-42.jpg",
+		"description": "Antibacterial soap for daily hygiene.",
+		"price": 1.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-15T08:00:00Z",
+		"brand":"tel"
 	},
 	{
 		"category": "Personal Care",
-		"products": [
-			{
-				"productName": "Dettol Soap Original 75g",
-				"productImage": "https://bk.shajgoj.com/storage/2022/08/Dettol-Soap-Original-75gm-Bathing-Bar1-42.jpg",
-				"description": "Antibacterial soap for daily hygiene.",
-				"price": 1.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-15T08:00:00Z"
-			},
-			{
-				"productName": "Shampoo Nourish 250ml",
-				"productImage": "https://gphb01pdazurefileshare.blob.core.windows.net/sys-master-hybris-media/hac/h3a/17541049581598/425850-lazartigue-nourish-shampoo-250ml-1-800Wx800H",
-				"description": "Nourishing shampoo for healthy hair.",
-				"price": 5.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-14T10:30:00Z"
-			},
-			{
-				"productName": "Toothpaste Fresh Mint 100g",
-				"productImage": "https://southstardrug.com.ph/cdn/shop/files/33353_1.jpg?v=1706148689",
-				"description": "Refreshing toothpaste for a clean mouth.",
-				"price": 2.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-13T12:00:00Z"
-			},
-			{
-				"productName": "Moisturizer Cream 200ml",
-				"productImage": "https://images.othoba.com/images/thumbs/0583308_nivea-soft-moisturizing-cream-200ml.jpeg",
-				"description": "Hydrating moisturizer for soft skin.",
-				"price": 9.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-12T14:45:00Z"
-			},
-			{
-				"productName": "Deodorant Cool Breeze 150ml",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX6digUC3Z9Pt6Yew5oKqkVeGR5izwxTdbQw&s",
-				"description": "Long-lasting deodorant with a fresh scent.",
-				"price": 4.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-11T08:00:00Z"
-			},
-			{
-				"productName": "Sunscreen SPF 50 100ml",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3_U46Yq_QL9IFoef7YN0RUiHBoF9lk6-bIA&s",
-				"description": "Broad-spectrum sunscreen with SPF 50.",
-				"price": 12.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-10T09:30:00Z"
-			},
-			{
-				"productName": "Lip Balm Natural 10g",
-				"productImage": "https://m.media-amazon.com/images/I/51UecDbdlSL.jpg",
-				"description": "Natural lip balm for hydrated lips.",
-				"price": 3.49,
-				"ratings": 4.5,
-				"creationDate": "2024-08-09T11:15:00Z"
-			},
-			{
-				"productName": "Face Wash Gentle Cleanser 150ml",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ddJ8GgILDvvmSyo0jg0Fb23elEbODtDwvw&s",
-				"description": "Gentle face wash for daily use.",
-				"price": 6.49,
-				"ratings": 4.6,
-				"creationDate": "2024-08-08T13:45:00Z"
-			},
-			{
-				"productName": "Body Lotion Hydrating 400ml",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwtWiIz7ArgU7vNLKKLsjySgCS1-JGqzbydQ&s",
-				"description": "Hydrating body lotion for smooth skin.",
-				"price": 7.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-07T09:00:00Z"
-			},
-			{
-				"productName": "Hair Oil Nourishing 100ml",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqShpfGDaoW9RyJAK8cBzgBAYFt45mjUhkOg&s",
-				"description": "Nourishing hair oil for strong hair.",
-				"price": 5.49,
-				"ratings": 4.6,
-				"creationDate": "2024-08-06T10:30:00Z"
-			}
-		]
+		"productName": "Shampoo Nourish 250ml",
+		"productImage": "https://gphb01pdazurefileshare.blob.core.windows.net/sys-master-hybris-media/hac/h3a/17541049581598/425850-lazartigue-nourish-shampoo-250ml-1-800Wx800H",
+		"description": "Nourishing shampoo for healthy hair.",
+		"price": 5.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-14T10:30:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Toothpaste Fresh Mint 100g",
+		"productImage": "https://southstardrug.com.ph/cdn/shop/files/33353_1.jpg?v=1706148689",
+		"description": "Refreshing toothpaste for a clean mouth.",
+		"price": 2.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-13T12:00:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Moisturizer Cream 200ml",
+		"productImage": "https://images.othoba.com/images/thumbs/0583308_nivea-soft-moisturizing-cream-200ml.jpeg",
+		"description": "Hydrating moisturizer for soft skin.",
+		"price": 9.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-12T14:45:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Deodorant Cool Breeze 150ml",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX6digUC3Z9Pt6Yew5oKqkVeGR5izwxTdbQw&s",
+		"description": "Long-lasting deodorant with a fresh scent.",
+		"price": 4.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-11T08:00:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Sunscreen SPF 50 100ml",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3_U46Yq_QL9IFoef7YN0RUiHBoF9lk6-bIA&s",
+		"description": "Broad-spectrum sunscreen with SPF 50.",
+		"price": 12.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-10T09:30:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Lip Balm Natural 10g",
+		"productImage": "https://m.media-amazon.com/images/I/51UecDbdlSL.jpg",
+		"description": "Natural lip balm for hydrated lips.",
+		"price": 3.49,
+		"ratings": 4.5,
+		"creationDate": "2024-08-09T11:15:00Z",
+		"brand":"tel"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Face Wash Gentle Cleanser 150ml",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ddJ8GgILDvvmSyo0jg0Fb23elEbODtDwvw&s",
+		"description": "Gentle face wash for daily use.",
+		"price": 6.49,
+		"ratings": 4.6,
+		"creationDate": "2024-08-08T13:45:00Z",
+		"brand":"RFL"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Body Lotion Hydrating 400ml",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwtWiIz7ArgU7vNLKKLsjySgCS1-JGqzbydQ&s",
+		"description": "Hydrating body lotion for smooth skin.",
+		"price": 7.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-07T09:00:00Z",
+		"brand":"RFL"
+	},
+	{
+		"category": "Personal Care",
+		"productName": "Hair Oil Nourishing 100ml",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqShpfGDaoW9RyJAK8cBzgBAYFt45mjUhkOg&s",
+		"description": "Nourishing hair oil for strong hair.",
+		"price": 5.49,
+		"ratings": 4.6,
+		"creationDate": "2024-08-06T10:30:00Z",
+		"brand":"RFL"
+	},
+
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Engine Oil 5L",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4Y97AEEFu2zIEJVepHrg3Ljsa_rfeO-qOg&s",
+		"description": "High-performance engine oil for cars.",
+		"price": 39.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-15T08:30:00Z",
+		"brand":"RDX"
 	},
 	{
 		"category": "Vehicle Essentials",
-		"products": [
-			{
-				"productName": "Car Engine Oil 5L",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4Y97AEEFu2zIEJVepHrg3Ljsa_rfeO-qOg&s",
-				"description": "High-performance engine oil for cars.",
-				"price": 39.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-15T08:30:00Z"
-			},
-			{
-				"productName": "Car Battery Charger",
-				"productImage": "https://images-cdn.ubuy.co.in/633ff1891047c52dd5079fb5-pz-p-0-10-amp-12v-battery-charger.jpg",
-				"description": "Portable car battery charger with fast charging.",
-				"price": 79.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-14T10:00:00Z"
-			},
-			{
-				"productName": "Tire Inflator Portable",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMUhAKl5d5iQp2PiBy_jLmmWeQ_TYefMDPQ&s",
-				"description": "Compact tire inflator for emergency use.",
-				"price": 49.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-13T11:30:00Z"
-			},
-			{
-				"productName": "Car Vacuum Cleaner",
-				"productImage": "https://people.com/thmb/25nRs43bxqKg_r2Xs3wjJUkChEY=/fit-in/1500x4388/filters:no_upscale():max_bytes(150000):strip_icc()/peo-car-vacuums-test-dirt-devil-scorpion-plus-corded-handheld-cleaner-sd30025b-walmart-dburreson-020-10-8248e011949d452d8f996a47a8bd148a.jpg",
-				"description": "Powerful car vacuum cleaner for interior cleaning.",
-				"price": 29.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-12T14:30:00Z"
-			},
-			{
-				"productName": "Car Seat Cover Set",
-				"productImage": "https://m.media-amazon.com/images/I/61BoJTJEOML._AC_SL1000_.jpg",
-				"description": "Durable car seat covers for protection and comfort.",
-				"price": 89.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-11T13:00:00Z"
-			},
-			{
-				"productName": "Car Air Freshener",
-				"productImage": "https://images-cdn.ubuy.co.in/6475db4ed79ae90f237f9cf2-ceeniu-smart-car-air-fresheners.jpg",
-				"description": "Long-lasting car air freshener with a pleasant scent.",
-				"price": 9.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-10T09:45:00Z"
-			},
-			{
-				"productName": "Windshield Wiper Blades",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEsWco4dN5egubqjLv731H89KgcPQWCG_ubg&s",
-				"description": "Durable windshield wiper blades for clear visibility.",
-				"price": 19.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-09T12:30:00Z"
-			},
-			{
-				"productName": "Car Mobile Holder",
-				"productImage": "https://m.media-amazon.com/images/I/71DK9BgtVtL._AC_UF1000,1000_QL80_.jpg",
-				"description": "Adjustable car mobile holder for safe driving.",
-				"price": 14.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-08T08:15:00Z"
-			},
-			{
-				"productName": "Car Jump Starter",
-				"productImage": "https://m.media-amazon.com/images/I/61SjSRLxwPL._AC_UF894,1000_QL80_.jpg",
-				"description": "Portable car jump starter for emergencies.",
-				"price": 59.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-07T09:45:00Z"
-			},
-			{
-				"productName": "Car Polishing Kit",
-				"productImage": "https://m.media-amazon.com/images/I/71EbVMtV8RL._AC_UF894,1000_QL80_.jpg",
-				"description": "Complete car polishing kit for a shiny finish.",
-				"price": 39.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-06T11:00:00Z"
-			}
-		]
+		"productName": "Car Battery Charger",
+		"productImage": "https://images-cdn.ubuy.co.in/633ff1891047c52dd5079fb5-pz-p-0-10-amp-12v-battery-charger.jpg",
+		"description": "Portable car battery charger with fast charging.",
+		"price": 79.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-14T10:00:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Tire Inflator Portable",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMUhAKl5d5iQp2PiBy_jLmmWeQ_TYefMDPQ&s",
+		"description": "Compact tire inflator for emergency use.",
+		"price": 49.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-13T11:30:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Vacuum Cleaner",
+		"productImage": "https://people.com/thmb/25nRs43bxqKg_r2Xs3wjJUkChEY=/fit-in/1500x4388/filters:no_upscale():max_bytes(150000):strip_icc()/peo-car-vacuums-test-dirt-devil-scorpion-plus-corded-handheld-cleaner-sd30025b-walmart-dburreson-020-10-8248e011949d452d8f996a47a8bd148a.jpg",
+		"description": "Powerful car vacuum cleaner for interior cleaning.",
+		"price": 29.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-12T14:30:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Seat Cover Set",
+		"productImage": "https://m.media-amazon.com/images/I/61BoJTJEOML._AC_SL1000_.jpg",
+		"description": "Durable car seat covers for protection and comfort.",
+		"price": 89.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-11T13:00:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Air Freshener",
+		"productImage": "https://images-cdn.ubuy.co.in/6475db4ed79ae90f237f9cf2-ceeniu-smart-car-air-fresheners.jpg",
+		"description": "Long-lasting car air freshener with a pleasant scent.",
+		"price": 9.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-10T09:45:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Windshield Wiper Blades",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEsWco4dN5egubqjLv731H89KgcPQWCG_ubg&s",
+		"description": "Durable windshield wiper blades for clear visibility.",
+		"price": 19.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-09T12:30:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Mobile Holder",
+		"productImage": "https://m.media-amazon.com/images/I/71DK9BgtVtL._AC_UF1000,1000_QL80_.jpg",
+		"description": "Adjustable car mobile holder for safe driving.",
+		"price": 14.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-08T08:15:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Jump Starter",
+		"productImage": "https://m.media-amazon.com/images/I/61SjSRLxwPL._AC_UF894,1000_QL80_.jpg",
+		"description": "Portable car jump starter for emergencies.",
+		"price": 59.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-07T09:45:00Z",
+		"brand":"RDX"
+	},
+	{
+		"category": "Vehicle Essentials",
+		"productName": "Car Polishing Kit",
+		"productImage": "https://m.media-amazon.com/images/I/71EbVMtV8RL._AC_UF894,1000_QL80_.jpg",
+		"description": "Complete car polishing kit for a shiny finish.",
+		"price": 39.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-06T11:00:00Z",
+		"brand":"RDX"
+	},
+
+	{
+		"category": "Home-Kitchen",
+		"productName": "Blender Mixer 500W",
+		"productImage": "https://m.media-amazon.com/images/I/71dTnfv-PxL._AC_UF894,1000_QL80_.jpg",
+		"description": "High-speed blender mixer for smoothies and more.",
+		"price": 49.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-15T10:30:00Z",
+		"brand":"chaldhal"
 	},
 	{
 		"category": "Home-Kitchen",
-		"products": [
-			{
-				"productName": "Blender Mixer 500W",
-				"productImage": "https://m.media-amazon.com/images/I/71dTnfv-PxL._AC_UF894,1000_QL80_.jpg",
-				"description": "High-speed blender mixer for smoothies and more.",
-				"price": 49.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-15T10:30:00Z"
-			},
-			{
-				"productName": "Non-Stick Cookware Set",
-				"productImage": "https://i.ebayimg.com/images/g/t5EAAOSwcmVf3R3a/s-l500.jpg",
-				"description": "Durable non-stick cookware set for everyday cooking.",
-				"price": 99.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-14T11:00:00Z"
-			},
-			{
-				"productName": "Vacuum Cleaner 1200W",
-				"productImage": "https://malamal.xyz/wp-content/uploads/2023/06/2023-06-14-64899c5e5b96c.png",
-				"description": "Powerful vacuum cleaner for deep cleaning.",
-				"price": 149.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-13T13:30:00Z"
-			},
-			{
-				"productName": "Air Fryer 3L",
-				"productImage": "https://m.media-amazon.com/images/I/71lX76hdbWL.jpg",
-				"description": "Healthy air fryer for low-oil cooking.",
-				"price": 129.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-12T08:30:00Z"
-			},
-			{
-				"productName": "Microwave Oven 20L",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFRweig9uKoHpoNzm9LAz5dPYUrY2Lrz1dQ&s",
-				"description": "Compact microwave oven for quick meals.",
-				"price": 199.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-11T14:00:00Z"
-			},
-			{
-				"productName": "Electric Kettle 1.5L",
-				"productImage": "https://mke.com.bd/media/catalog/product/i/m/image_2_2.png?store=default&image-type=image",
-				"description": "Fast-boiling electric kettle with auto shut-off.",
-				"price": 29.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-10T10:30:00Z"
-			},
-			{
-				"productName": "Toaster 2-Slice",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpL3FJP43m8zrgsklukvVu3cqdNLHljkHXQ&s",
-				"description": "Compact toaster with adjustable browning.",
-				"price": 24.99,
-				"ratings": 4.6,
-				"creationDate": "2024-08-09T11:00:00Z"
-			},
-			{
-				"productName": "Rice Cooker 1.8L",
-				"productImage": "https://vision.com.bd/images/detailed/166/WhatsApp_Image_2024-02-06_at_10.23.11_AM__2__z34z-in.jpeg",
-				"description": "Automatic rice cooker with keep-warm function.",
-				"price": 39.99,
-				"ratings": 4.7,
-				"creationDate": "2024-08-08T09:15:00Z"
-			},
-			{
-				"productName": "Coffee Maker 12-Cup",
-				"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbVLiqlTarnQ9uUtyWZOL7iNBGFgrliZqNQ&s",
-				"description": "Programmable coffee maker for fresh coffee.",
-				"price": 59.99,
-				"ratings": 4.8,
-				"creationDate": "2024-08-07T10:00:00Z"
-			},
-			{
-				"productName": "Dish Rack Stainless Steel",
-				"productImage": "https://m.media-amazon.com/images/I/81Dzqbx0xzL.jpg",
-				"description": "Durable stainless steel dish rack for kitchen organization.",
-				"price": 19.99,
-				"ratings": 4.5,
-				"creationDate": "2024-08-06T11:30:00Z"
-			}
-		]
+		"productName": "Non-Stick Cookware Set",
+		"productImage": "https://i.ebayimg.com/images/g/t5EAAOSwcmVf3R3a/s-l500.jpg",
+		"description": "Durable non-stick cookware set for everyday cooking.",
+		"price": 99.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-14T11:00:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Vacuum Cleaner 1200W",
+		"productImage": "https://malamal.xyz/wp-content/uploads/2023/06/2023-06-14-64899c5e5b96c.png",
+		"description": "Powerful vacuum cleaner for deep cleaning.",
+		"price": 149.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-13T13:30:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Air Fryer 3L",
+		"productImage": "https://m.media-amazon.com/images/I/71lX76hdbWL.jpg",
+		"description": "Healthy air fryer for low-oil cooking.",
+		"price": 129.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-12T08:30:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Microwave Oven 20L",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFRweig9uKoHpoNzm9LAz5dPYUrY2Lrz1dQ&s",
+		"description": "Compact microwave oven for quick meals.",
+		"price": 199.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-11T14:00:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Electric Kettle 1.5L",
+		"productImage": "https://mke.com.bd/media/catalog/product/i/m/image_2_2.png?store=default&image-type=image",
+		"description": "Fast-boiling electric kettle with auto shut-off.",
+		"price": 29.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-10T10:30:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Toaster 2-Slice",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpL3FJP43m8zrgsklukvVu3cqdNLHljkHXQ&s",
+		"description": "Compact toaster with adjustable browning.",
+		"price": 24.99,
+		"ratings": 4.6,
+		"creationDate": "2024-08-09T11:00:00Z",
+		"brand":"chaldhal"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Rice Cooker 1.8L",
+		"productImage": "https://vision.com.bd/images/detailed/166/WhatsApp_Image_2024-02-06_at_10.23.11_AM__2__z34z-in.jpeg",
+		"description": "Automatic rice cooker with keep-warm function.",
+		"price": 39.99,
+		"ratings": 4.7,
+		"creationDate": "2024-08-08T09:15:00Z"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Coffee Maker 12-Cup",
+		"productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbVLiqlTarnQ9uUtyWZOL7iNBGFgrliZqNQ&s",
+		"description": "Programmable coffee maker for fresh coffee.",
+		"price": 59.99,
+		"ratings": 4.8,
+		"creationDate": "2024-08-07T10:00:00Z"
+	},
+	{
+		"category": "Home-Kitchen",
+		"productName": "Dish Rack Stainless Steel",
+		"productImage": "https://m.media-amazon.com/images/I/81Dzqbx0xzL.jpg",
+		"description": "Durable stainless steel dish rack for kitchen organization.",
+		"price": 19.99,
+		"ratings": 4.5,
+		"creationDate": "2024-08-06T11:30:00Z"
 	}
 ]

@@ -24,12 +24,36 @@ async function run() {
 		const productsCollection = client.db("easy-shop-db").collection("products");
 		/// get all products
 		app.get("/products", async (req, res) => {
-			const { search, sort } = req.query;
+			const {
+				search,
+				sort,
+				brand,
+				pricerange,
+				category,
+				currentPage,
+				size: strSize,
+			} = req.query;
+			const size = parseInt(strSize);
+			const currentPageNo = parseInt(currentPage);
 			let query = {};
 			let sortObj = {};
 			if (search) {
-				// query = { productName: { $regex: search, $options: "i" } };
 				query.productName = { $regex: search, $options: "i" };
+			}
+			if (category && category != "none") {
+				query.category = { $regex: category, $options: "i" };
+			}
+			if (brand && brand != "none") {
+				query.brand = { $regex: brand, $options: "i" };
+			}
+
+			switch (pricerange) {
+				case "below200":
+					query.price = { $lte: 200 };
+					break;
+				case "20ToMax":
+					query.price = { $gte: 200 };
+					break;
 			}
 
 			switch (sort) {
@@ -49,19 +73,16 @@ async function run() {
 					sortObj = {};
 					break;
 			}
-			console.log({ query, search, sort });
 			const result = await productsCollection
 				.find(query)
 				.sort(sortObj)
+				.limit(size)
+				.skip(currentPageNo * size)
 				.toArray();
 			res.send(result);
 		});
 		// get products quantity
-		app.get("/products-quantity", async (req, res) => {
-			const result = await productsCollection.estimatedDocumentCount();
-			console.log(result);
-			res.send({ quantity: result });
-		});
+		
 
 		app.get("/", (req, res) => {
 			res.send({ message: "This is easy shop server running" });
