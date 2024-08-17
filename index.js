@@ -93,9 +93,6 @@ async function run() {
 		app.listen(port, () => {
 			console.log("App listening on port 3000!");
 		});
-		// Send a ping to confirm a successful connection
-		await client.db("admin").command({ ping: 1 });
-		console.log("You successfully connected to MongoDB!");
 	} finally {
 		// Ensures that the client will close when you finish/error
 	}
