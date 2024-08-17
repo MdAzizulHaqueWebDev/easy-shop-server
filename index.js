@@ -82,7 +82,10 @@ async function run() {
 			res.send(result);
 		});
 		// get products quantity
-		
+		app.get("/products-quantity", async (req, res) => {
+			const result = await productsCollection.estimatedDocumentCount();
+			res.send({ quantity: result });
+		});
 
 		app.get("/", (req, res) => {
 			res.send({ message: "This is easy shop server running" });
