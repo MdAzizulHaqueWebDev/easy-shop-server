@@ -22,6 +22,62 @@ const client = new MongoClient(uri, {
 async function run() {
 	try {
 		const productsCollection = client.db("easy-shop-db").collection("products");
+
+		// const getProducts = async (req, res) => {
+		// 	try {
+		// 		const {
+		// 			search,
+		// 			sort,
+		// 			category,
+		// 			brand,
+		// 			pricerange,
+		// 			size,
+		// 			currentPage,
+		// 			pageSize,
+		// 		} = req.query;
+
+		// 		// Build query object based on filtering criteria
+		// 		let query = {};
+
+		// 		if (search) query.name = { $regex: search, $options: "i" }; // Search by product name, case-insensitive
+		// 		if (category) query.category = category;
+		// 		if (brand) query.brand = brand;
+		// 		if (pricerange) {
+		// 			const [minPrice, maxPrice] = pricerange.split("-");
+		// 			query.price = { $gte: Number(minPrice), $lte: Number(maxPrice) };
+		// 		}
+		// 		if (size) query.size = size;
+
+		// 		// Handle Sorting (e.g., by price, name)
+		// 		let sortCriteria = {};
+		// 		if (sort === "price") sortCriteria.price = 1; // Ascending
+		// 		else if (sort === "price_desc") sortCriteria.price = -1; // Descending
+		// 		// Add more sorting options as needed
+
+		// 		// Pagination logic
+		// 		const page = Number(currentPage) || 1;
+		// 		const limit = Number(pageSize) || 10;
+		// 		const skip = (page - 1) * limit;
+
+		// 		// Get total count for pagination
+		// 		const totalProducts = await Product.countDocuments(query);
+
+		// 		// Execute query with filtering, sorting, and pagination
+		// 		const products = await Product.find(query)
+		// 			.sort(sortCriteria)
+		// 			.skip(skip)
+		// 			.limit(limit);
+
+		// 		res.json({
+		// 			products,
+		// 			totalPages: Math.ceil(totalProducts / limit),
+		// 			currentPage: page,
+		// 		});
+		// 	} catch (error) {
+		// 		res.status(500).json({ message: "Server error" });
+		// 	}
+		// };
+
 		/// get all products
 		app.get("/products", async (req, res) => {
 			const {
@@ -31,12 +87,10 @@ async function run() {
 				pricerange,
 				category,
 				currentPage,
-				size: strSize,
+				size,
 			} = req.query;
-			const size = parseInt(strSize);
-			const currentPageNo = parseInt(currentPage);
 			let query = {};
-			let sortObj = {};
+			let sortOptions = {};
 			if (search) {
 				query.productName = { $regex: search, $options: "i" };
 			}
@@ -58,43 +112,51 @@ async function run() {
 
 			switch (sort) {
 				case "lowToHigh":
-					sortObj.price = 1;
+					sortOptions.price = 1;
 					break;
 				case "highToLow":
-					sortObj.price = -1;
+					sortOptions.price = -1;
 					break;
 				case "newest":
-					sortObj.creationDate = -1;
+					sortOptions.creationDate = -1;
 					break;
 				case "oldest":
-					sortObj.creationDate = 1;
+					sortOptions.creationDate = 1;
 					break;
 				case "default":
-					sortObj = {};
+					sortOptions = {};
 					break;
+				default:
 			}
+
+			// Pagination logic
+			const pageCurrent = Number(currentPage) || 1;
+			const limit = Number(size) || 10;
+			const skip = (pageCurrent - 1) * limit;
+
+			// Get total count for pagination
+			const totalProducts = await productsCollection.countDocuments(query);
+
 			const result = await productsCollection
 				.find(query)
-				.sort(sortObj)
-				.limit(size)
-				.skip(currentPageNo * size)
+				.sort(sortOptions)
+				.skip(skip)
+				.limit(limit)
 				.toArray();
-			res.send(result);
-		});
-		// get products quantity
-		app.get("/products-quantity", async (req, res) => {
-			const result = await productsCollection.estimatedDocumentCount();
-			res.send({ quantity: result });
+
+			res.send({
+				products: result,
+				totalPages: Math.ceil(totalProducts / limit),
+				currentPage: pageCurrent,
+			});
 		});
 
 		app.get("/", (req, res) => {
 			res.send({ message: "This is easy shop server running" });
 		});
-		app.listen(port, () => {
-			console.log("App listening on port 3000!");
-		});
+		app.listen(port, () => {});
 	} finally {
 		// Ensures that the client will close when you finish/error
 	}
 }
-run().catch(console.dir);
+run().catch(console.log())
